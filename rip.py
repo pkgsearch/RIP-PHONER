@@ -54,6 +54,7 @@ block = """
 \033[0m
 """
 print(block)
+print("Сделано @pkgsearch")
 input()
 os.system("clear")
 print("""
@@ -73,6 +74,7 @@ print("""
 
 \033[0m
 """)
+print("Сделано @pkgsearch")
 for x in range(12):
     _name = _name + random.choice(list('123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'))
     password = _name + random.choice(list('123456789qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM'))
