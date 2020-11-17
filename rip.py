@@ -30,7 +30,7 @@ phone = ""
 try:
     phone = sys.argv[1]
 except:
-    print("Укажите номер пидора")
+    print("Сделано @pkgsearch    Укажите номер пидора")
     phone = input("$ python rip.py +")
 _phone = phone
 np = "\033[37m\033[47m_\033[0m"
